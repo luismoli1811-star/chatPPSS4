@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General">
+        <SwitchPreference
+            android:key="dark_mode"
+            android:title="Modo oscuro"
+            android:summary="Usar tema oscuro en la app"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="language"
+            android:title="Idioma"
+            android:entries="@array/language_names"
+            android:entryValues="@array/language_codes"
+            android:defaultValue="es" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Motor de emulación">
+        <ListPreference
+            android:key="engine_choice"
+            android:title="Motor de traducción"
+            android:summary="Selecciona el motor de emulación"
+            android:entries="@array/engine_names"
+            android:entryValues="@array/engine_values"
+            android:defaultValue="fex" />
+
+        <SwitchPreference
+            android:key="show_fps"
+            android:title="Mostrar FPS"
+            android:summary="Ver contador de cuadros por segundo"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Controles táctiles">
+        <Preference
+            android:key="custom_controls"
+            android:title="Personalizar controles táctiles"
+            android:summary="Editar posición y tamaño de botones" />
+
+        <SwitchPreference
+            android:key="haptic_feedback"
+            android:title="Vibración al tocar"
+            android:summary="Vibrar al presionar botones"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="show_buttons"
+            android:title="Mostrar botones"
+            android:summary="Ver controles en pantalla"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Acerca de">
+        <Preference
+            android:key="version"
+            android:title="Versión"
+            android:summary="0.0.1  1�7 chatPPSS4" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

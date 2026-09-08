@@ -1,0 +1,27 @@
+<!-- Versión mínima de Android: 12+ -->
+<uses-sdk android:minSdkVersion="31" android:targetSdkVersion="34" />
+
+<!-- Permisos necesarios -->
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" 
+                   android:maxSdkVersion="32" />
+<uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+<uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+<uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.VIBRATE" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+<!-- Gráficos -->
+<uses-feature android:glEsVersion="0x00030000" android:required="true" />
+<uses-feature android:name="android.hardware.vulkan.version" android:required="false" />
+
+<!-- Dentro de <application> -->
+<application
+    android:requestLegacyExternalStorage="true"
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="chatPPSS4"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+<activity android:name=".TouchControlsActivity" />

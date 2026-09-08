@@ -1,0 +1,10 @@
+<!-- Dentro de tu layout de ajustes, agrega esto -->
+<Button
+    android:id="@+id/btn_touch_controls"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Personalizar controles táctiles"
+    android:textColor="#FFFFFFFF"
+    android:background="#FF222222"
+    android:layout_margin="16dp"
+    android:padding="16dp"/>
