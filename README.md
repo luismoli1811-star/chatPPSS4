@@ -2,7 +2,8 @@
 > Emulador de PlayStation 4 para Android — **Gratuito y de código abierto*
 
 ## ✨ Sobre este proyecto
-- ✅ **Emulador real**, no simulador. Basado en el núcleo de shadPS4.
+- ✅ **Emulador real**, no simulador. .
+tiene su propio núcleo de emulación gracias a bachata S4 esto es posible
 - ✅ Inspirado en **Bachata S4** de JICA98 — el primero en llevar shadPS4 a Android con FEX.
 - ✅ Gratuito y de código abierto, igual que el trabajo de los proyectos en los que se basa.
 - ✅ A diferencia de Bachata S4, aquí **puedes elegir motor de traducción**: FEX o Box64.
@@ -76,3 +77,4 @@ chatPPSS4 no es un simple puerto de otro emulador: cuenta con su propio núcleo 
 📌 Filosofía del proyecto
  
 "No se trata solo de emular una consola, sino de construir un núcleo flexible que evolucione con cada versión, diseñado desde el principio para llevar la experiencia de PlayStation 4 a dispositivos móviles."
+nueva actualización emulador actualizado sin APK sin todavía compilar APK se espera a compilar 1 2 4 
